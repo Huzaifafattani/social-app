@@ -1,0 +1,77 @@
+  styles.css
+ {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #f68b39;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+button {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+button {
+  background-color: #f68b39;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.post-card {
+  border: 1px solid #f68b39;
+  padding: 10px;
+  margin-top: 20px;
+} 
+
+.logout{
+  
+}

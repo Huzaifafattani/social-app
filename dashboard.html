@@ -1,0 +1,37 @@
+ <!-- dashboard.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>App</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Settings</a></li>
+          <li><a class="logout" onclick="logout()">Logout</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="content">
+      <h2>Create Post</h2>
+      <form id="postForm">
+        <input type="text" id="title" placeholder="Title" required>
+        <input type="text" id="description" placeholder="Description" required>
+        <!-- <input type="file" id="photo" accept="image/*,video/*"> -->
+        <button onclick="createPostCard(title, description)" type="submit">Post</button>
+      </form>
+    </div>
+  </div>
+  
+  <script src="dashboard.js"></script>
+
+</body>
+</html> 
